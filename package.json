@@ -1,0 +1,22 @@
+{
+  "name": "email-validator",
+  "version": "1.0.0",
+  "description": "Validation tools for working with email",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/email-validator"
+  },
+  "author": "gary.feltham@citypay.com",
+  "license": "ISC",
+  "dependencies": {
+    "dns": "^0.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
