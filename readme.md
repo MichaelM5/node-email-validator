@@ -1,7 +1,9 @@
 Email Validator
 ====
 
-The email validator library provides a validation routine for an email address based on.
+[![Build Status](https://travis-ci.org/citypay/node-email-validator.svg?branch=master)](https://travis-ci.org/citypay/node-email-validator)
+
+The email validator library provides a validation routine for an email address.
 
 ### Format Checking 
 
