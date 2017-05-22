@@ -70,7 +70,7 @@ EmailValidator.prototype.validateMxRecord = function (email, callback) {
     dns.resolveMx(domain, (err, addresses) => {
 
         if (err)
-            callback(err);
+            callback(`Unable to obtain MX record, error: ${err.code}`);
         else if (addresses.length === 0)
             callback(`No addresses found for ${domain}`);
         else {
